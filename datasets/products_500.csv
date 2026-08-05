@@ -1,0 +1,501 @@
+product_id,product_name,category,subcategory,unit_price,cost_price,supplier_name,stock_quantity,launch_date,product_rating,active_flag
+P0001,Laptop Model 001,Electronics,Electronics Sub-2,167.30,93.69,Prime Traders,13,2022-01-10,3.2,Y
+P0002,Shirt Model 002,Fashion,Fashion Sub-3,184.60,105.22,Global Mart,26,2022-01-19,3.9,Y
+P0003,Rice Model 003,Grocery,Grocery Sub-4,201.90,117.10,Vertex Goods,39,2022-01-28,4.6,Y
+P0004,Chair Model 004,Home,Home Sub-1,219.20,129.33,Metro Wholesale,52,2022-02-06,2.8,Y
+P0005,Football Model 005,Sports,Sports Sub-2,236.50,141.90,Nova Supply,65,2022-02-15,3.5,Y
+P0006,Monitor Model 006,Electronics,Electronics Sub-3,253.80,154.82,Prime Traders,78,2022-02-24,4.2,Y
+P0007,Jeans Model 007,Fashion,Fashion Sub-4,271.10,168.08,Global Mart,91,2022-03-05,4.9,Y
+P0008,Oil Model 008,Grocery,Grocery Sub-1,288.40,181.69,Vertex Goods,104,2022-03-14,3.1,Y
+P0009,Table Model 009,Home,Home Sub-2,305.70,195.65,Metro Wholesale,117,2022-03-23,3.8,Y
+P0010,Yoga Mat Model 010,Sports,Sports Sub-3,323.00,209.95,Nova Supply,130,2022-04-01,4.5,Y
+P0011,Keyboard Model 011,Electronics,Electronics Sub-4,340.30,224.60,Prime Traders,143,2022-04-10,2.7,Y
+P0012,Jacket Model 012,Fashion,Fashion Sub-1,357.60,239.59,Global Mart,156,2022-04-19,3.4,Y
+P0013,Tea Model 013,Grocery,Grocery Sub-2,374.90,254.93,Vertex Goods,169,2022-04-28,4.1,Y
+P0014,Lamp Model 014,Home,Home Sub-3,392.20,270.62,Metro Wholesale,182,2022-05-07,4.8,Y
+P0015,Dumbbell Model 015,Sports,Sports Sub-4,409.50,286.65,Nova Supply,195,2022-05-16,3.0,Y
+P0016,Mouse Model 016,Electronics,Electronics Sub-1,426.80,303.03,Prime Traders,208,2022-05-25,3.7,Y
+P0017,Shoes Model 017,Fashion,Fashion Sub-2,444.10,319.75,Global Mart,221,2022-06-03,4.4,Y
+P0018,Coffee Model 018,Grocery,Grocery Sub-3,461.40,336.82,Vertex Goods,234,2022-06-12,2.6,Y
+P0019,Mixer Model 019,Home,Home Sub-4,478.70,354.24,Metro Wholesale,247,2022-06-21,3.3,Y
+P0020,Tennis Racket Model 020,Sports,Sports Sub-1,496.00,272.80,Nova Supply,10,2022-06-30,4.0,Y
+P0021,Headset Model 021,Electronics,Electronics Sub-2,513.30,287.45,Prime Traders,23,2022-07-09,4.7,Y
+P0022,Handbag Model 022,Fashion,Fashion Sub-3,530.60,302.44,Global Mart,36,2022-07-18,2.9,Y
+P0023,Snacks Model 023,Grocery,Grocery Sub-4,547.90,317.78,Vertex Goods,49,2022-07-27,3.6,N
+P0024,Cookware Model 024,Home,Home Sub-1,565.20,333.47,Metro Wholesale,62,2022-08-05,4.3,Y
+P0025,Cricket Bat Model 025,Sports,Sports Sub-2,582.50,349.50,Nova Supply,75,2022-08-14,2.5,Y
+P0026,Laptop Model 026,Electronics,Electronics Sub-3,599.80,365.88,Prime Traders,88,2022-08-23,3.2,Y
+P0027,Shirt Model 027,Fashion,Fashion Sub-4,617.10,382.60,Global Mart,101,2022-09-01,3.9,Y
+P0028,Rice Model 028,Grocery,Grocery Sub-1,634.40,399.67,Vertex Goods,114,2022-09-10,4.6,Y
+P0029,Chair Model 029,Home,Home Sub-2,651.70,417.09,Metro Wholesale,127,2022-09-19,2.8,Y
+P0030,Football Model 030,Sports,Sports Sub-3,669.00,434.85,Nova Supply,140,2022-09-28,3.5,Y
+P0031,Monitor Model 031,Electronics,Electronics Sub-4,686.30,452.96,Prime Traders,0,2022-10-07,4.2,Y
+P0032,Jeans Model 032,Fashion,Fashion Sub-1,703.60,471.41,Global Mart,166,2022-10-16,4.9,Y
+P0033,Oil Model 033,Grocery,Grocery Sub-2,720.90,490.21,Vertex Goods,179,2022-10-25,3.1,Y
+P0034,Table Model 034,Home,Home Sub-3,738.20,509.36,Metro Wholesale,192,2022-11-03,3.8,Y
+P0035,Yoga Mat Model 035,Sports,Sports Sub-4,755.50,528.85,Nova Supply,205,2022-11-12,4.5,Y
+P0036,Keyboard Model 036,Electronics,Electronics Sub-1,772.80,548.69,Prime Traders,218,2022-11-21,2.7,Y
+P0037,Jacket Model 037,Fashion,Fashion Sub-2,790.10,568.87,Global Mart,231,2022-11-30,3.4,Y
+P0038,Tea Model 038,Grocery,Grocery Sub-3,807.40,589.40,Vertex Goods,244,2022-12-09,4.1,Y
+P0039,Lamp Model 039,Home,Home Sub-4,824.70,610.28,Metro Wholesale,7,2022-12-18,4.8,Y
+P0040,Dumbbell Model 040,Sports,Sports Sub-1,842.00,463.10,Nova Supply,20,2022-12-27,3.0,Y
+P0041,Mouse Model 041,Electronics,Electronics Sub-2,859.30,481.21,Prime Traders,33,2023-01-05,3.7,Y
+P0042,Shoes Model 042,Fashion,Fashion Sub-3,876.60,499.66,Global Mart,46,2023-01-14,4.4,Y
+P0043,Coffee Model 043,Grocery,Grocery Sub-4,893.90,518.46,Vertex Goods,59,2023-01-23,2.6,Y
+P0044,Mixer Model 044,Home,Home Sub-1,911.20,537.61,Metro Wholesale,72,2023-02-01,3.3,Y
+P0045,Tennis Racket Model 045,Sports,Sports Sub-2,928.50,557.10,Nova Supply,85,2023-02-10,4.0,Y
+P0046,Headset Model 046,Electronics,Electronics Sub-3,945.80,576.94,Prime Traders,98,2023-02-19,4.7,N
+P0047,Handbag Model 047,Fashion,Fashion Sub-4,963.10,597.12,Global Mart,111,2023-02-28,2.9,Y
+P0048,Snacks Model 048,Grocery,Grocery Sub-1,980.40,617.65,Vertex Goods,124,2023-03-09,3.6,Y
+P0049,Cookware Model 049,Home,Home Sub-2,997.70,638.53,Metro Wholesale,137,2023-03-18,4.3,Y
+P0050,Cricket Bat Model 050,Sports,Sports Sub-3,1015.00,659.75,Nova Supply,150,2023-03-27,2.5,Y
+P0051,Laptop Model 051,Electronics,Electronics Sub-4,1032.30,681.32,Prime Traders,163,2023-04-05,3.2,Y
+P0052,Shirt Model 052,Fashion,Fashion Sub-1,1049.60,703.23,Global Mart,176,2023-04-14,3.9,Y
+P0053,Rice Model 053,Grocery,Grocery Sub-2,1066.90,725.49,Vertex Goods,189,2023-04-23,4.6,Y
+P0054,Chair Model 054,Home,Home Sub-3,1084.20,748.10,Metro Wholesale,202,2023-05-02,2.8,Y
+P0055,Football Model 055,Sports,Sports Sub-4,1101.50,771.05,Nova Supply,215,2023-05-11,3.5,Y
+P0056,Monitor Model 056,Electronics,Electronics Sub-1,1118.80,794.35,Prime Traders,228,2023-05-20,4.2,Y
+P0057,Jeans Model 057,Fashion,Fashion Sub-2,1136.10,817.99,Global Mart,241,2023-05-29,4.9,Y
+P0058,Oil Model 058,Grocery,Grocery Sub-3,1153.40,841.98,Vertex Goods,4,2023-06-07,3.1,Y
+P0059,Table Model 059,Home,Home Sub-4,1170.70,866.32,Metro Wholesale,17,2023-06-16,3.8,Y
+P0060,Yoga Mat Model 060,Sports,Sports Sub-1,1188.00,653.40,Nova Supply,30,2023-06-25,4.5,Y
+P0061,Keyboard Model 061,Electronics,Electronics Sub-2,1205.30,674.97,Prime Traders,43,2023-07-04,2.7,Y
+P0062,Jacket Model 062,Fashion,Fashion Sub-3,1222.60,696.88,Global Mart,0,2023-07-13,3.4,Y
+P0063,Tea Model 063,Grocery,Grocery Sub-4,1239.90,719.14,Vertex Goods,69,2023-07-22,4.1,Y
+P0064,Lamp Model 064,Home,Home Sub-1,1257.20,741.75,Metro Wholesale,82,2023-07-31,4.8,Y
+P0065,Dumbbell Model 065,Sports,Sports Sub-2,1274.50,764.70,Nova Supply,95,2023-08-09,3.0,Y
+P0066,Mouse Model 066,Electronics,Electronics Sub-3,1291.80,788.00,Prime Traders,108,2023-08-18,3.7,Y
+P0067,Shoes Model 067,Fashion,Fashion Sub-4,1309.10,811.64,Global Mart,121,2023-08-27,4.4,Y
+P0068,Coffee Model 068,Grocery,Grocery Sub-1,1326.40,835.63,Vertex Goods,134,2023-09-05,2.6,Y
+P0069,Mixer Model 069,Home,Home Sub-2,1343.70,859.97,Metro Wholesale,147,2023-09-14,3.3,N
+P0070,Tennis Racket Model 070,Sports,Sports Sub-3,1361.00,884.65,Nova Supply,160,2023-09-23,4.0,Y
+P0071,Headset Model 071,Electronics,Electronics Sub-4,1378.30,909.68,Prime Traders,173,2023-10-02,4.7,Y
+P0072,Handbag Model 072,Fashion,Fashion Sub-1,1395.60,935.05,Global Mart,186,2023-10-11,2.9,Y
+P0073,Snacks Model 073,Grocery,Grocery Sub-2,1412.90,960.77,Vertex Goods,199,2023-10-20,3.6,Y
+P0074,Cookware Model 074,Home,Home Sub-3,1430.20,986.84,Metro Wholesale,212,2023-10-29,4.3,Y
+P0075,Cricket Bat Model 075,Sports,Sports Sub-4,1447.50,1013.25,Nova Supply,225,2023-11-07,2.5,Y
+P0076,Laptop Model 076,Electronics,Electronics Sub-1,1464.80,1040.01,Prime Traders,238,2023-11-16,3.2,Y
+P0077,Shirt Model 077,Fashion,Fashion Sub-2,1482.10,1067.11,Global Mart,1,2023-11-25,3.9,Y
+P0078,Rice Model 078,Grocery,Grocery Sub-3,1499.40,1094.56,Vertex Goods,14,2023-12-04,4.6,Y
+P0079,Chair Model 079,Home,Home Sub-4,1516.70,1122.36,Metro Wholesale,27,2023-12-13,2.8,Y
+P0080,Football Model 080,Sports,Sports Sub-1,1534.00,843.70,Nova Supply,40,2023-12-22,3.5,Y
+P0081,Monitor Model 081,Electronics,Electronics Sub-2,1551.30,868.73,Prime Traders,53,2023-12-31,4.2,Y
+P0082,Jeans Model 082,Fashion,Fashion Sub-3,1568.60,894.10,Global Mart,66,2024-01-09,4.9,Y
+P0083,Oil Model 083,Grocery,Grocery Sub-4,1585.90,919.82,Vertex Goods,79,2024-01-18,3.1,Y
+P0084,Table Model 084,Home,Home Sub-1,1603.20,945.89,Metro Wholesale,92,2024-01-27,3.8,Y
+P0085,Yoga Mat Model 085,Sports,Sports Sub-2,1620.50,972.30,Nova Supply,105,2024-02-05,4.5,Y
+P0086,Keyboard Model 086,Electronics,Electronics Sub-3,1637.80,999.06,Prime Traders,118,2024-02-14,2.7,Y
+P0087,Jacket Model 087,Fashion,Fashion Sub-4,1655.10,1026.16,Global Mart,131,2024-02-23,3.4,Y
+P0088,Tea Model 088,Grocery,Grocery Sub-1,1672.40,1053.61,Vertex Goods,144,2024-03-03,4.1,Y
+P0089,Lamp Model 089,Home,Home Sub-2,1689.70,,Metro Wholesale,157,2024-03-12,4.8,Y
+P0090,Dumbbell Model 090,Sports,Sports Sub-3,1707.00,1109.55,Nova Supply,170,2024-03-21,3.0,Y
+P0091,Mouse Model 091,Electronics,Electronics Sub-4,1724.30,1138.04,Prime Traders,183,2024-03-30,3.7,Y
+P0092,Shoes Model 092,Fashion,Fashion Sub-1,1741.60,1166.87,Global Mart,196,2024-04-08,4.4,N
+P0093,Coffee Model 093,Grocery,Grocery Sub-2,1758.90,1196.05,Vertex Goods,0,2024-04-17,2.6,Y
+P0094,Mixer Model 094,Home,Home Sub-3,1776.20,1225.58,Metro Wholesale,222,2024-04-26,3.3,Y
+P0095,Tennis Racket Model 095,Sports,Sports Sub-4,1793.50,1255.45,Nova Supply,235,2024-05-05,4.0,Y
+P0096,Headset Model 096,Electronics,Electronics Sub-1,1810.80,1285.67,Prime Traders,248,2024-05-14,4.7,Y
+P0097,Handbag Model 097,Fashion,Fashion Sub-2,NA,1316.23,Global Mart,11,2024-05-23,2.9,Y
+P0098,Snacks Model 098,Grocery,Grocery Sub-3,1845.40,1347.14,Vertex Goods,24,2024-06-01,3.6,Y
+P0099,Cookware Model 099,Home,Home Sub-4,1862.70,1378.40,Metro Wholesale,37,2024-06-10,4.3,Y
+P0100,Cricket Bat Model 100,Sports,Sports Sub-1,1880.00,1034.00,Nova Supply,50,2024-06-19,2.5,Y
+P0101,Laptop Model 101,Electronics,Electronics Sub-2,1897.30,1062.49,Prime Traders,63,2024-06-28,3.2,Y
+P0102,Shirt Model 102,Fashion,Fashion Sub-3,1914.60,1091.32,Global Mart,76,2024-07-07,3.9,Y
+P0103,Rice Model 103,Grocery,Grocery Sub-4,1931.90,1120.50,Vertex Goods,89,2024-07-16,4.6,Y
+P0104,Chair Model 104,Home,Home Sub-1,1949.20,1150.03,Metro Wholesale,102,2024-07-25,2.8,Y
+P0105,Football Model 105,Sports,Sports Sub-2,1966.50,1179.90,Nova Supply,115,2024-08-03,3.5,Y
+P0106,Monitor Model 106,Electronics,Electronics Sub-3,1983.80,1210.12,Prime Traders,128,2024-08-12,4.2,Y
+P0107,Jeans Model 107,Fashion,Fashion Sub-4,2001.10,1240.68,Global Mart,141,2024-08-21,4.9,Y
+P0108,Oil Model 108,Grocery,Grocery Sub-1,2018.40,1271.59,Vertex Goods,154,2024-08-30,3.1,Y
+P0109,Table Model 109,Home,Home Sub-2,2035.70,1302.85,Metro Wholesale,167,2024-09-08,3.8,Y
+P0110,Yoga Mat Model 110,Sports,Sports Sub-3,2053.00,1334.45,Nova Supply,180,2024-09-17,4.5,Y
+P0111,Keyboard Model 111,Electronics,Electronics Sub-4,2070.30,1366.40,Prime Traders,193,2024-09-26,2.7,Y
+P0112,Jacket Model 112,Fashion,Fashion Sub-1,2087.60,1398.69,Global Mart,206,2024-10-05,3.4,Y
+P0113,Tea Model 113,Grocery,Grocery Sub-2,2104.90,1431.33,Vertex Goods,219,2024-10-14,4.1,Y
+P0114,Lamp Model 114,Home,Home Sub-3,2122.20,1464.32,Metro Wholesale,232,2024-10-23,4.8,Y
+P0115,Dumbbell Model 115,Sports,Sports Sub-4,2139.50,1497.65,Nova Supply,245,2024-11-01,3.0,N
+P0116,Mouse Model 116,Electronics,Electronics Sub-1,2156.80,1531.33,Prime Traders,8,2024-11-10,3.7,Y
+P0117,Shoes Model 117,Fashion,Fashion Sub-2,2174.10,1565.35,Global Mart,21,2024-11-19,4.4,Y
+P0118,Coffee Model 118,Grocery,Grocery Sub-3,2191.40,1599.72,Vertex Goods,34,2024-11-28,2.6,Y
+P0119,Mixer Model 119,Home,Home Sub-4,2208.70,1634.44,Metro Wholesale,47,2024-12-07,3.3,Y
+P0120,Tennis Racket Model 120,Sports,Sports Sub-1,2226.00,1224.30,Nova Supply,60,2024-12-16,4.0,Y
+P0121,Headset Model 121,Electronics,Electronics Sub-2,2243.30,1256.25,Prime Traders,73,2024-12-25,4.7,Y
+P0122,Handbag Model 122,Fashion,Fashion Sub-3,2260.60,1288.54,Global Mart,86,2025-01-03,2.9,Y
+P0123,Snacks Model 123,Grocery,Grocery Sub-4,2277.90,1321.18,Vertex Goods,99,2025-01-12,3.6,Y
+P0124,Cookware Model 124,Home,Home Sub-1,2295.20,1354.17,Metro Wholesale,0,2025-01-21,4.3,Y
+P0125,Cricket Bat Model 125,Sports,Sports Sub-2,2312.50,1387.50,Nova Supply,125,2025-01-30,2.5,Y
+P0126,Laptop Model 126,Electronics,Electronics Sub-3,2329.80,1421.18,Prime Traders,138,2025-02-08,3.2,Y
+P0127,Shirt Model 127,Fashion,Fashion Sub-4,2347.10,1455.20,Global Mart,151,2025-02-17,3.9,Y
+P0128,Rice Model 128,Grocery,Grocery Sub-1,2364.40,1489.57,Vertex Goods,164,2025-02-26,4.6,Y
+P0129,Chair Model 129,Home,Home Sub-2,2381.70,1524.29,Metro Wholesale,177,2025-03-07,2.8,Y
+P0130,Football Model 130,Sports,Sports Sub-3,2399.00,1559.35,Nova Supply,190,2025-03-16,3.5,Y
+P0131,Monitor Model 131,Electronics,Electronics Sub-4,2416.30,1594.76,Prime Traders,203,2025-03-25,4.2,Y
+P0132,Jeans Model 132,Fashion,Fashion Sub-1,2433.60,1630.51,Global Mart,216,2025-04-03,4.9,Y
+P0133,Oil Model 133,Grocery,Grocery Sub-2,2450.90,1666.61,Vertex Goods,229,2025-04-12,3.1,Y
+P0134,Table Model 134,Home,Home Sub-3,2468.20,1703.06,Metro Wholesale,242,2022-01-07,3.8,Y
+P0135,Yoga Mat Model 135,Sports,Sports Sub-4,2485.50,1739.85,Nova Supply,5,2022-01-16,4.5,Y
+P0136,Keyboard Model 136,Electronics,Electronics Sub-1,2502.80,1776.99,Prime Traders,18,2022-01-25,2.7,Y
+P0137,Jacket Model 137,Fashion,Fashion Sub-2,2520.10,1814.47,Global Mart,31,2022-02-03,3.4,Y
+P0138,Tea Model 138,Grocery,Grocery Sub-3,2537.40,1852.30,Vertex Goods,44,2022-02-12,4.1,N
+P0139,Lamp Model 139,Home,Home Sub-4,2554.70,1890.48,Metro Wholesale,57,2022-02-21,4.8,Y
+P0140,Dumbbell Model 140,Sports,Sports Sub-1,2572.00,1414.60,Nova Supply,70,2022-03-02,3.0,Y
+P0141,Mouse Model 141,Electronics,Electronics Sub-2,2589.30,1450.01,Prime Traders,83,2022-03-11,3.7,Y
+P0142,Shoes Model 142,Fashion,Fashion Sub-3,2606.60,1485.76,Global Mart,96,2022-03-20,4.4,Y
+P0143,Coffee Model 143,Grocery,Grocery Sub-4,2623.90,1521.86,Vertex Goods,109,2022-03-29,2.6,Y
+P0144,Mixer Model 144,Home,Home Sub-1,2641.20,1558.31,Metro Wholesale,122,2022-04-07,3.3,Y
+P0145,Tennis Racket Model 145,Sports,Sports Sub-2,2658.50,1595.10,Nova Supply,135,2022-04-16,4.0,Y
+P0146,Headset Model 146,Electronics,Electronics Sub-3,2675.80,1632.24,Prime Traders,148,2022-04-25,4.7,Y
+P0147,Handbag Model 147,Fashion,Fashion Sub-4,2693.10,1669.72,Global Mart,161,2022-05-04,2.9,Y
+P0148,Snacks Model 148,Grocery,Grocery Sub-1,2710.40,1707.55,Vertex Goods,174,2022-05-13,3.6,Y
+P0149,Cookware Model 149,Home,Home Sub-2,2727.70,1745.73,Metro Wholesale,187,2022-05-22,4.3,Y
+P0150,Cricket Bat Model 150,Sports,Sports Sub-3,2745.00,1784.25,Nova Supply,200,2022-05-31,2.5,Y
+P0151,Laptop Model 151,Electronics,Electronics Sub-4,2762.30,1823.12,Prime Traders,213,2022-06-09,3.2,Y
+P0152,Shirt Model 152,Fashion,Fashion Sub-1,2779.60,1862.33,Global Mart,226,2022-06-18,3.9,Y
+P0153,Rice Model 153,Grocery,Grocery Sub-2,2796.90,1901.89,Vertex Goods,239,2022-06-27,4.6,Y
+P0154,Chair Model 154,Home,Home Sub-3,2814.20,1941.80,Metro Wholesale,2,2022-07-06,2.8,Y
+P0155,Football Model 155,Sports,Sports Sub-4,2831.50,1982.05,Nova Supply,0,2022-07-15,3.5,Y
+P0156,Monitor Model 156,Electronics,Electronics Sub-1,2848.80,2022.65,Prime Traders,28,2022-07-24,4.2,Y
+P0157,Jeans Model 157,Fashion,Fashion Sub-2,2866.10,2063.59,Global Mart,41,2022-08-02,4.9,Y
+P0158,Oil Model 158,Grocery,Grocery Sub-3,2883.40,2104.88,Vertex Goods,54,2022-08-11,3.1,Y
+P0159,Table Model 159,Home,Home Sub-4,2900.70,2146.52,Metro Wholesale,67,2022-08-20,3.8,Y
+P0160,Yoga Mat Model 160,Sports,Sports Sub-1,2918.00,1604.90,Nova Supply,80,2022-08-29,4.5,Y
+P0161,Keyboard Model 161,Electronics,Electronics Sub-2,2935.30,1643.77,Prime Traders,93,2022-09-07,2.7,N
+P0162,Jacket Model 162,Fashion,Fashion Sub-3,2952.60,1682.98,Global Mart,106,2022-09-16,3.4,Y
+P0163,Tea Model 163,Grocery,Grocery Sub-4,2969.90,1722.54,Vertex Goods,119,2022-09-25,4.1,Y
+P0164,Lamp Model 164,Home,Home Sub-1,2987.20,1762.45,Metro Wholesale,132,2022-10-04,4.8,Y
+P0165,Dumbbell Model 165,Sports,Sports Sub-2,3004.50,1802.70,Nova Supply,145,2022-10-13,3.0,Y
+P0166,Mouse Model 166,Electronics,Electronics Sub-3,3021.80,1843.30,Prime Traders,158,2022-10-22,3.7,Y
+P0167,Shoes Model 167,Fashion,Fashion Sub-4,3039.10,1884.24,Global Mart,171,2022-10-31,4.4,Y
+P0168,Coffee Model 168,Grocery,Grocery Sub-1,3056.40,1925.53,Vertex Goods,184,2022-11-09,2.6,Y
+P0169,Mixer Model 169,Home,Home Sub-2,3073.70,1967.17,Metro Wholesale,197,2022-11-18,3.3,Y
+P0170,Tennis Racket Model 170,Sports,Sports Sub-3,3091.00,2009.15,Nova Supply,210,2022-11-27,4.0,Y
+P0171,Headset Model 171,Electronics,Electronics Sub-4,3108.30,2051.48,Prime Traders,223,2022-12-06,4.7,Y
+P0172,Handbag Model 172,Fashion,Fashion Sub-1,3125.60,2094.15,Global Mart,236,2022-12-15,2.9,Y
+P0173,Snacks Model 173,Grocery,Grocery Sub-2,3142.90,2137.17,Vertex Goods,249,2022-12-24,3.6,Y
+P0174,Cookware Model 174,Home,Home Sub-3,3160.20,2180.54,Metro Wholesale,12,2023-01-02,4.3,Y
+P0175,Cricket Bat Model 175,Sports,Sports Sub-4,3177.50,2224.25,Nova Supply,25,2023-01-11,2.5,Y
+P0176,Laptop Model 176,Electronics,Electronics Sub-1,3194.80,2268.31,Prime Traders,38,2023-01-20,3.2,Y
+P0177,Shirt Model 177,Fashion,Fashion Sub-2,3212.10,2312.71,Global Mart,51,2023-01-29,3.9,Y
+P0178,Rice Model 178,Grocery,Grocery Sub-3,3229.40,,Vertex Goods,64,2023-02-07,4.6,Y
+P0179,Chair Model 179,Home,Home Sub-4,3246.70,2402.56,Metro Wholesale,77,2023-02-16,2.8,Y
+P0180,Football Model 180,Sports,Sports Sub-1,3264.00,1795.20,Nova Supply,90,2023-02-25,3.5,Y
+P0181,Monitor Model 181,Electronics,Electronics Sub-2,3281.30,1837.53,Prime Traders,103,2023-03-06,4.2,Y
+P0182,Jeans Model 182,Fashion,Fashion Sub-3,3298.60,1880.20,Global Mart,116,2023-03-15,4.9,Y
+P0183,Oil Model 183,Grocery,Grocery Sub-4,3315.90,1923.22,Vertex Goods,129,2023-03-24,3.1,Y
+P0184,Table Model 184,Home,Home Sub-1,3333.20,1966.59,Metro Wholesale,142,2023-04-02,3.8,N
+P0185,Yoga Mat Model 185,Sports,Sports Sub-2,3350.50,2010.30,Nova Supply,155,2023-04-11,4.5,Y
+P0186,Keyboard Model 186,Electronics,Electronics Sub-3,3367.80,2054.36,Prime Traders,0,2023-04-20,2.7,Y
+P0187,Jacket Model 187,Fashion,Fashion Sub-4,3385.10,2098.76,Global Mart,181,2023-04-29,3.4,Y
+P0188,Tea Model 188,Grocery,Grocery Sub-1,3402.40,2143.51,Vertex Goods,194,2023-05-08,4.1,Y
+P0189,Lamp Model 189,Home,Home Sub-2,3419.70,2188.61,Metro Wholesale,207,2023-05-17,4.8,Y
+P0190,Dumbbell Model 190,Sports,Sports Sub-3,3437.00,2234.05,Nova Supply,220,2023-05-26,3.0,Y
+P0191,Mouse Model 191,Electronics,Electronics Sub-4,3454.30,2279.84,Prime Traders,233,2023-06-04,3.7,Y
+P0192,Shoes Model 192,Fashion,Fashion Sub-1,3471.60,2325.97,Global Mart,246,2023-06-13,4.4,Y
+P0193,Coffee Model 193,Grocery,Grocery Sub-2,3488.90,2372.45,Vertex Goods,9,2023-06-22,2.6,Y
+P0194,Mixer Model 194,Home,Home Sub-3,NA,2419.28,Metro Wholesale,22,2023-07-01,3.3,Y
+P0195,Tennis Racket Model 195,Sports,Sports Sub-4,3523.50,2466.45,Nova Supply,35,2023-07-10,4.0,Y
+P0196,Headset Model 196,Electronics,Electronics Sub-1,3540.80,2513.97,Prime Traders,48,2023-07-19,4.7,Y
+P0197,Handbag Model 197,Fashion,Fashion Sub-2,3558.10,2561.83,Global Mart,61,2023-07-28,2.9,Y
+P0198,Snacks Model 198,Grocery,Grocery Sub-3,3575.40,2610.04,Vertex Goods,74,2023-08-06,3.6,Y
+P0199,Cookware Model 199,Home,Home Sub-4,3592.70,2658.60,Metro Wholesale,87,2023-08-15,4.3,Y
+P0200,Cricket Bat Model 200,Sports,Sports Sub-1,3610.00,1985.50,Nova Supply,100,2023-08-24,2.5,Y
+P0201,Laptop Model 201,Electronics,Electronics Sub-2,3627.30,2031.29,Prime Traders,113,2023-09-02,3.2,Y
+P0202,Shirt Model 202,Fashion,Fashion Sub-3,3644.60,2077.42,Global Mart,126,2023-09-11,3.9,Y
+P0203,Rice Model 203,Grocery,Grocery Sub-4,3661.90,2123.90,Vertex Goods,139,2023-09-20,4.6,Y
+P0204,Chair Model 204,Home,Home Sub-1,3679.20,2170.73,Metro Wholesale,152,2023-09-29,2.8,Y
+P0205,Football Model 205,Sports,Sports Sub-2,3696.50,2217.90,Nova Supply,165,2023-10-08,3.5,Y
+P0206,Monitor Model 206,Electronics,Electronics Sub-3,3713.80,2265.42,Prime Traders,178,2023-10-17,4.2,Y
+P0207,Jeans Model 207,Fashion,Fashion Sub-4,3731.10,2313.28,Global Mart,191,2023-10-26,4.9,N
+P0208,Oil Model 208,Grocery,Grocery Sub-1,3748.40,2361.49,Vertex Goods,204,2023-11-04,3.1,Y
+P0209,Table Model 209,Home,Home Sub-2,3765.70,2410.05,Metro Wholesale,217,2023-11-13,3.8,Y
+P0210,Yoga Mat Model 210,Sports,Sports Sub-3,3783.00,2458.95,Nova Supply,230,2023-11-22,4.5,Y
+P0211,Keyboard Model 211,Electronics,Electronics Sub-4,3800.30,2508.20,Prime Traders,243,2023-12-01,2.7,Y
+P0212,Jacket Model 212,Fashion,Fashion Sub-1,3817.60,2557.79,Global Mart,6,2023-12-10,3.4,Y
+P0213,Tea Model 213,Grocery,Grocery Sub-2,3834.90,2607.73,Vertex Goods,19,2023-12-19,4.1,Y
+P0214,Lamp Model 214,Home,Home Sub-3,3852.20,2658.02,Metro Wholesale,32,2023-12-28,4.8,Y
+P0215,Dumbbell Model 215,Sports,Sports Sub-4,3869.50,2708.65,Nova Supply,45,2024-01-06,3.0,Y
+P0216,Mouse Model 216,Electronics,Electronics Sub-1,3886.80,2759.63,Prime Traders,58,2024-01-15,3.7,Y
+P0217,Shoes Model 217,Fashion,Fashion Sub-2,3904.10,2810.95,Global Mart,0,2024-01-24,4.4,Y
+P0218,Coffee Model 218,Grocery,Grocery Sub-3,3921.40,2862.62,Vertex Goods,84,2024-02-02,2.6,Y
+P0219,Mixer Model 219,Home,Home Sub-4,3938.70,2914.64,Metro Wholesale,97,2024-02-11,3.3,Y
+P0220,Tennis Racket Model 220,Sports,Sports Sub-1,3956.00,2175.80,Nova Supply,110,2024-02-20,4.0,Y
+P0221,Headset Model 221,Electronics,Electronics Sub-2,3973.30,2225.05,Prime Traders,123,2024-02-29,4.7,Y
+P0222,Handbag Model 222,Fashion,Fashion Sub-3,3990.60,2274.64,Global Mart,136,2024-03-09,2.9,Y
+P0223,Snacks Model 223,Grocery,Grocery Sub-4,4007.90,2324.58,Vertex Goods,149,2024-03-18,3.6,Y
+P0224,Cookware Model 224,Home,Home Sub-1,4025.20,2374.87,Metro Wholesale,162,2024-03-27,4.3,Y
+P0225,Cricket Bat Model 225,Sports,Sports Sub-2,4042.50,2425.50,Nova Supply,175,2024-04-05,2.5,Y
+P0226,Laptop Model 226,Electronics,Electronics Sub-3,4059.80,2476.48,Prime Traders,188,2024-04-14,3.2,Y
+P0227,Shirt Model 227,Fashion,Fashion Sub-4,4077.10,2527.80,Global Mart,201,2024-04-23,3.9,Y
+P0228,Rice Model 228,Grocery,Grocery Sub-1,4094.40,2579.47,Vertex Goods,214,2024-05-02,4.6,Y
+P0229,Chair Model 229,Home,Home Sub-2,4111.70,2631.49,Metro Wholesale,227,2024-05-11,2.8,Y
+P0230,Football Model 230,Sports,Sports Sub-3,4129.00,2683.85,Nova Supply,240,2024-05-20,3.5,N
+P0231,Monitor Model 231,Electronics,Electronics Sub-4,4146.30,2736.56,Prime Traders,3,2024-05-29,4.2,Y
+P0232,Jeans Model 232,Fashion,Fashion Sub-1,4163.60,2789.61,Global Mart,16,2024-06-07,4.9,Y
+P0233,Oil Model 233,Grocery,Grocery Sub-2,4180.90,2843.01,Vertex Goods,29,2024-06-16,3.1,Y
+P0234,Table Model 234,Home,Home Sub-3,4198.20,2896.76,Metro Wholesale,42,2024-06-25,3.8,Y
+P0235,Yoga Mat Model 235,Sports,Sports Sub-4,4215.50,2950.85,Nova Supply,55,2024-07-04,4.5,Y
+P0236,Keyboard Model 236,Electronics,Electronics Sub-1,4232.80,3005.29,Prime Traders,68,2024-07-13,2.7,Y
+P0237,Jacket Model 237,Fashion,Fashion Sub-2,4250.10,3060.07,Global Mart,81,2024-07-22,3.4,Y
+P0238,Tea Model 238,Grocery,Grocery Sub-3,4267.40,3115.20,Vertex Goods,94,2024-07-31,4.1,Y
+P0239,Lamp Model 239,Home,Home Sub-4,4284.70,3170.68,Metro Wholesale,107,2024-08-09,4.8,Y
+P0240,Dumbbell Model 240,Sports,Sports Sub-1,4302.00,2366.10,Nova Supply,120,2024-08-18,3.0,Y
+P0241,Mouse Model 241,Electronics,Electronics Sub-2,4319.30,2418.81,Prime Traders,133,2024-08-27,3.7,Y
+P0242,Shoes Model 242,Fashion,Fashion Sub-3,4336.60,2471.86,Global Mart,146,2024-09-05,4.4,Y
+P0243,Coffee Model 243,Grocery,Grocery Sub-4,4353.90,2525.26,Vertex Goods,159,2024-09-14,2.6,Y
+P0244,Mixer Model 244,Home,Home Sub-1,4371.20,2579.01,Metro Wholesale,172,2024-09-23,3.3,Y
+P0245,Tennis Racket Model 245,Sports,Sports Sub-2,4388.50,2633.10,Nova Supply,185,2024-10-02,4.0,Y
+P0246,Headset Model 246,Electronics,Electronics Sub-3,4405.80,2687.54,Prime Traders,198,2024-10-11,4.7,Y
+P0247,Handbag Model 247,Fashion,Fashion Sub-4,4423.10,2742.32,Global Mart,211,2024-10-20,2.9,Y
+P0248,Snacks Model 248,Grocery,Grocery Sub-1,4440.40,2797.45,Vertex Goods,0,2024-10-29,3.6,Y
+P0249,Cookware Model 249,Home,Home Sub-2,4457.70,2852.93,Metro Wholesale,237,2024-11-07,4.3,Y
+P0250,Cricket Bat Model 250,Sports,Sports Sub-3,4475.00,2908.75,Nova Supply,0,2024-11-16,2.5,Y
+P0251,Laptop Model 251,Electronics,Electronics Sub-4,4492.30,2964.92,Prime Traders,13,2024-11-25,3.2,Y
+P0252,Shirt Model 252,Fashion,Fashion Sub-1,4509.60,3021.43,Global Mart,26,2024-12-04,3.9,Y
+P0253,Rice Model 253,Grocery,Grocery Sub-2,4526.90,3078.29,Vertex Goods,39,2024-12-13,4.6,N
+P0254,Chair Model 254,Home,Home Sub-3,4544.20,3135.50,Metro Wholesale,52,2024-12-22,2.8,Y
+P0255,Football Model 255,Sports,Sports Sub-4,4561.50,3193.05,Nova Supply,65,2024-12-31,3.5,Y
+P0256,Monitor Model 256,Electronics,Electronics Sub-1,4578.80,3250.95,Prime Traders,78,2025-01-09,4.2,Y
+P0257,Jeans Model 257,Fashion,Fashion Sub-2,4596.10,3309.19,Global Mart,91,2025-01-18,4.9,Y
+P0258,Oil Model 258,Grocery,Grocery Sub-3,4613.40,3367.78,Vertex Goods,104,2025-01-27,3.1,Y
+P0259,Table Model 259,Home,Home Sub-4,4630.70,3426.72,Metro Wholesale,117,2025-02-05,3.8,Y
+P0260,Yoga Mat Model 260,Sports,Sports Sub-1,4648.00,2556.40,Nova Supply,130,2025-02-14,4.5,Y
+P0261,Keyboard Model 261,Electronics,Electronics Sub-2,4665.30,2612.57,Prime Traders,143,2025-02-23,2.7,Y
+P0262,Jacket Model 262,Fashion,Fashion Sub-3,4682.60,2669.08,Global Mart,156,2025-03-04,3.4,Y
+P0263,Tea Model 263,Grocery,Grocery Sub-4,4699.90,2725.94,Vertex Goods,169,2025-03-13,4.1,Y
+P0264,Lamp Model 264,Home,Home Sub-1,4717.20,2783.15,Metro Wholesale,182,2025-03-22,4.8,Y
+P0265,Dumbbell Model 265,Sports,Sports Sub-2,4734.50,2840.70,Nova Supply,195,2025-03-31,3.0,Y
+P0266,Mouse Model 266,Electronics,Electronics Sub-3,4751.80,2898.60,Prime Traders,208,2025-04-09,3.7,Y
+P0267,Shoes Model 267,Fashion,Fashion Sub-4,4769.10,,Global Mart,221,2022-01-04,4.4,Y
+P0268,Coffee Model 268,Grocery,Grocery Sub-1,4786.40,3015.43,Vertex Goods,234,2022-01-13,2.6,Y
+P0269,Mixer Model 269,Home,Home Sub-2,4803.70,3074.37,Metro Wholesale,247,2022-01-22,3.3,Y
+P0270,Tennis Racket Model 270,Sports,Sports Sub-3,4821.00,3133.65,Nova Supply,10,2022-01-31,4.0,Y
+P0271,Headset Model 271,Electronics,Electronics Sub-4,4838.30,3193.28,Prime Traders,23,2022-02-09,4.7,Y
+P0272,Handbag Model 272,Fashion,Fashion Sub-1,4855.60,3253.25,Global Mart,36,2022-02-18,2.9,Y
+P0273,Snacks Model 273,Grocery,Grocery Sub-2,4872.90,3313.57,Vertex Goods,49,2022-02-27,3.6,Y
+P0274,Cookware Model 274,Home,Home Sub-3,4890.20,3374.24,Metro Wholesale,62,2022-03-08,4.3,Y
+P0275,Cricket Bat Model 275,Sports,Sports Sub-4,4907.50,3435.25,Nova Supply,75,2022-03-17,2.5,Y
+P0276,Laptop Model 276,Electronics,Electronics Sub-1,4924.80,3496.61,Prime Traders,88,2022-03-26,3.2,N
+P0277,Shirt Model 277,Fashion,Fashion Sub-2,4942.10,3558.31,Global Mart,101,2022-04-04,3.9,Y
+P0278,Rice Model 278,Grocery,Grocery Sub-3,4959.40,3620.36,Vertex Goods,114,2022-04-13,4.6,Y
+P0279,Chair Model 279,Home,Home Sub-4,4976.70,3682.76,Metro Wholesale,0,2022-04-22,2.8,Y
+P0280,Football Model 280,Sports,Sports Sub-1,4994.00,2746.70,Nova Supply,140,2022-05-01,3.5,Y
+P0281,Monitor Model 281,Electronics,Electronics Sub-2,5011.30,2806.33,Prime Traders,153,2022-05-10,4.2,Y
+P0282,Jeans Model 282,Fashion,Fashion Sub-3,5028.60,2866.30,Global Mart,166,2022-05-19,4.9,Y
+P0283,Oil Model 283,Grocery,Grocery Sub-4,5045.90,2926.62,Vertex Goods,179,2022-05-28,3.1,Y
+P0284,Table Model 284,Home,Home Sub-1,5063.20,2987.29,Metro Wholesale,192,2022-06-06,3.8,Y
+P0285,Yoga Mat Model 285,Sports,Sports Sub-2,5080.50,3048.30,Nova Supply,205,2022-06-15,4.5,Y
+P0286,Keyboard Model 286,Electronics,Electronics Sub-3,5097.80,3109.66,Prime Traders,218,2022-06-24,2.7,Y
+P0287,Jacket Model 287,Fashion,Fashion Sub-4,5115.10,3171.36,Global Mart,231,2022-07-03,3.4,Y
+P0288,Tea Model 288,Grocery,Grocery Sub-1,5132.40,3233.41,Vertex Goods,244,2022-07-12,4.1,Y
+P0289,Lamp Model 289,Home,Home Sub-2,5149.70,3295.81,Metro Wholesale,7,2022-07-21,4.8,Y
+P0290,Dumbbell Model 290,Sports,Sports Sub-3,5167.00,3358.55,Nova Supply,20,2022-07-30,3.0,Y
+P0291,Mouse Model 291,Electronics,Electronics Sub-4,NA,3421.64,Prime Traders,33,2022-08-08,3.7,Y
+P0292,Shoes Model 292,Fashion,Fashion Sub-1,5201.60,3485.07,Global Mart,46,2022-08-17,4.4,Y
+P0293,Coffee Model 293,Grocery,Grocery Sub-2,5218.90,3548.85,Vertex Goods,59,2022-08-26,2.6,Y
+P0294,Mixer Model 294,Home,Home Sub-3,5236.20,3612.98,Metro Wholesale,72,2022-09-04,3.3,Y
+P0295,Tennis Racket Model 295,Sports,Sports Sub-4,5253.50,3677.45,Nova Supply,85,2022-09-13,4.0,Y
+P0296,Headset Model 296,Electronics,Electronics Sub-1,5270.80,3742.27,Prime Traders,98,2022-09-22,4.7,Y
+P0297,Handbag Model 297,Fashion,Fashion Sub-2,5288.10,3807.43,Global Mart,111,2022-10-01,2.9,Y
+P0298,Snacks Model 298,Grocery,Grocery Sub-3,5305.40,3872.94,Vertex Goods,124,2022-10-10,3.6,Y
+P0299,Cookware Model 299,Home,Home Sub-4,5322.70,3938.80,Metro Wholesale,137,2022-10-19,4.3,N
+P0300,Cricket Bat Model 300,Sports,Sports Sub-1,5340.00,2937.00,Nova Supply,150,2022-10-28,2.5,Y
+P0301,Laptop Model 301,Electronics,Electronics Sub-2,5357.30,3000.09,Prime Traders,163,2022-11-06,3.2,Y
+P0302,Shirt Model 302,Fashion,Fashion Sub-3,5374.60,3063.52,Global Mart,176,2022-11-15,3.9,Y
+P0303,Rice Model 303,Grocery,Grocery Sub-4,5391.90,3127.30,Vertex Goods,189,2022-11-24,4.6,Y
+P0304,Chair Model 304,Home,Home Sub-1,5409.20,3191.43,Metro Wholesale,202,2022-12-03,2.8,Y
+P0305,Football Model 305,Sports,Sports Sub-2,5426.50,3255.90,Nova Supply,215,2022-12-12,3.5,Y
+P0306,Monitor Model 306,Electronics,Electronics Sub-3,5443.80,3320.72,Prime Traders,228,2022-12-21,4.2,Y
+P0307,Jeans Model 307,Fashion,Fashion Sub-4,5461.10,3385.88,Global Mart,241,2022-12-30,4.9,Y
+P0308,Oil Model 308,Grocery,Grocery Sub-1,5478.40,3451.39,Vertex Goods,4,2023-01-08,3.1,Y
+P0309,Table Model 309,Home,Home Sub-2,5495.70,3517.25,Metro Wholesale,17,2023-01-17,3.8,Y
+P0310,Yoga Mat Model 310,Sports,Sports Sub-3,5513.00,3583.45,Nova Supply,0,2023-01-26,4.5,Y
+P0311,Keyboard Model 311,Electronics,Electronics Sub-4,5530.30,3650.00,Prime Traders,43,2023-02-04,2.7,Y
+P0312,Jacket Model 312,Fashion,Fashion Sub-1,5547.60,3716.89,Global Mart,56,2023-02-13,3.4,Y
+P0313,Tea Model 313,Grocery,Grocery Sub-2,5564.90,3784.13,Vertex Goods,69,2023-02-22,4.1,Y
+P0314,Lamp Model 314,Home,Home Sub-3,5582.20,3851.72,Metro Wholesale,82,2023-03-03,4.8,Y
+P0315,Dumbbell Model 315,Sports,Sports Sub-4,5599.50,3919.65,Nova Supply,95,2023-03-12,3.0,Y
+P0316,Mouse Model 316,Electronics,Electronics Sub-1,5616.80,3987.93,Prime Traders,108,2023-03-21,3.7,Y
+P0317,Shoes Model 317,Fashion,Fashion Sub-2,5634.10,4056.55,Global Mart,121,2023-03-30,4.4,Y
+P0318,Coffee Model 318,Grocery,Grocery Sub-3,5651.40,4125.52,Vertex Goods,134,2023-04-08,2.6,Y
+P0319,Mixer Model 319,Home,Home Sub-4,5668.70,4194.84,Metro Wholesale,147,2023-04-17,3.3,Y
+P0320,Tennis Racket Model 320,Sports,Sports Sub-1,5686.00,3127.30,Nova Supply,160,2023-04-26,4.0,Y
+P0321,Headset Model 321,Electronics,Electronics Sub-2,5703.30,3193.85,Prime Traders,173,2023-05-05,4.7,Y
+P0322,Handbag Model 322,Fashion,Fashion Sub-3,5720.60,3260.74,Global Mart,186,2023-05-14,2.9,N
+P0323,Snacks Model 323,Grocery,Grocery Sub-4,5737.90,3327.98,Vertex Goods,199,2023-05-23,3.6,Y
+P0324,Cookware Model 324,Home,Home Sub-1,5755.20,3395.57,Metro Wholesale,212,2023-06-01,4.3,Y
+P0325,Cricket Bat Model 325,Sports,Sports Sub-2,5772.50,3463.50,Nova Supply,225,2023-06-10,2.5,Y
+P0326,Laptop Model 326,Electronics,Electronics Sub-3,5789.80,3531.78,Prime Traders,238,2023-06-19,3.2,Y
+P0327,Shirt Model 327,Fashion,Fashion Sub-4,5807.10,3600.40,Global Mart,1,2023-06-28,3.9,Y
+P0328,Rice Model 328,Grocery,Grocery Sub-1,5824.40,3669.37,Vertex Goods,14,2023-07-07,4.6,Y
+P0329,Chair Model 329,Home,Home Sub-2,5841.70,3738.69,Metro Wholesale,27,2023-07-16,2.8,Y
+P0330,Football Model 330,Sports,Sports Sub-3,5859.00,3808.35,Nova Supply,40,2023-07-25,3.5,Y
+P0331,Monitor Model 331,Electronics,Electronics Sub-4,5876.30,3878.36,Prime Traders,53,2023-08-03,4.2,Y
+P0332,Jeans Model 332,Fashion,Fashion Sub-1,5893.60,3948.71,Global Mart,66,2023-08-12,4.9,Y
+P0333,Oil Model 333,Grocery,Grocery Sub-2,5910.90,4019.41,Vertex Goods,79,2023-08-21,3.1,Y
+P0334,Table Model 334,Home,Home Sub-3,5928.20,4090.46,Metro Wholesale,92,2023-08-30,3.8,Y
+P0335,Yoga Mat Model 335,Sports,Sports Sub-4,5945.50,4161.85,Nova Supply,105,2023-09-08,4.5,Y
+P0336,Keyboard Model 336,Electronics,Electronics Sub-1,5962.80,4233.59,Prime Traders,118,2023-09-17,2.7,Y
+P0337,Jacket Model 337,Fashion,Fashion Sub-2,5980.10,4305.67,Global Mart,131,2023-09-26,3.4,Y
+P0338,Tea Model 338,Grocery,Grocery Sub-3,5997.40,4378.10,Vertex Goods,144,2023-10-05,4.1,Y
+P0339,Lamp Model 339,Home,Home Sub-4,6014.70,4450.88,Metro Wholesale,157,2023-10-14,4.8,Y
+P0340,Dumbbell Model 340,Sports,Sports Sub-1,6032.00,3317.60,Nova Supply,170,2023-10-23,3.0,Y
+P0341,Mouse Model 341,Electronics,Electronics Sub-2,6049.30,3387.61,Prime Traders,0,2023-11-01,3.7,Y
+P0342,Shoes Model 342,Fashion,Fashion Sub-3,6066.60,3457.96,Global Mart,196,2023-11-10,4.4,Y
+P0343,Coffee Model 343,Grocery,Grocery Sub-4,6083.90,3528.66,Vertex Goods,209,2023-11-19,2.6,Y
+P0344,Mixer Model 344,Home,Home Sub-1,6101.20,3599.71,Metro Wholesale,222,2023-11-28,3.3,Y
+P0345,Tennis Racket Model 345,Sports,Sports Sub-2,6118.50,3671.10,Nova Supply,235,2023-12-07,4.0,N
+P0346,Headset Model 346,Electronics,Electronics Sub-3,6135.80,3742.84,Prime Traders,248,2023-12-16,4.7,Y
+P0347,Handbag Model 347,Fashion,Fashion Sub-4,6153.10,3814.92,Global Mart,11,2023-12-25,2.9,Y
+P0348,Snacks Model 348,Grocery,Grocery Sub-1,6170.40,3887.35,Vertex Goods,24,2024-01-03,3.6,Y
+P0349,Cookware Model 349,Home,Home Sub-2,6187.70,3960.13,Metro Wholesale,37,2024-01-12,4.3,Y
+P0350,Cricket Bat Model 350,Sports,Sports Sub-3,6205.00,4033.25,Nova Supply,50,2024-01-21,2.5,Y
+P0351,Laptop Model 351,Electronics,Electronics Sub-4,6222.30,4106.72,Prime Traders,63,2024-01-30,3.2,Y
+P0352,Shirt Model 352,Fashion,Fashion Sub-1,6239.60,4180.53,Global Mart,76,2024-02-08,3.9,Y
+P0353,Rice Model 353,Grocery,Grocery Sub-2,6256.90,4254.69,Vertex Goods,89,2024-02-17,4.6,Y
+P0354,Chair Model 354,Home,Home Sub-3,6274.20,4329.20,Metro Wholesale,102,2024-02-26,2.8,Y
+P0355,Football Model 355,Sports,Sports Sub-4,6291.50,4404.05,Nova Supply,115,2024-03-06,3.5,Y
+P0356,Monitor Model 356,Electronics,Electronics Sub-1,6308.80,,Prime Traders,128,2024-03-15,4.2,Y
+P0357,Jeans Model 357,Fashion,Fashion Sub-2,6326.10,4554.79,Global Mart,141,2024-03-24,4.9,Y
+P0358,Oil Model 358,Grocery,Grocery Sub-3,6343.40,4630.68,Vertex Goods,154,2024-04-02,3.1,Y
+P0359,Table Model 359,Home,Home Sub-4,6360.70,4706.92,Metro Wholesale,167,2024-04-11,3.8,Y
+P0360,Yoga Mat Model 360,Sports,Sports Sub-1,6378.00,3507.90,Nova Supply,180,2024-04-20,4.5,Y
+P0361,Keyboard Model 361,Electronics,Electronics Sub-2,6395.30,3581.37,Prime Traders,193,2024-04-29,2.7,Y
+P0362,Jacket Model 362,Fashion,Fashion Sub-3,6412.60,3655.18,Global Mart,206,2024-05-08,3.4,Y
+P0363,Tea Model 363,Grocery,Grocery Sub-4,6429.90,3729.34,Vertex Goods,219,2024-05-17,4.1,Y
+P0364,Lamp Model 364,Home,Home Sub-1,6447.20,3803.85,Metro Wholesale,232,2024-05-26,4.8,Y
+P0365,Dumbbell Model 365,Sports,Sports Sub-2,6464.50,3878.70,Nova Supply,245,2024-06-04,3.0,Y
+P0366,Mouse Model 366,Electronics,Electronics Sub-3,6481.80,3953.90,Prime Traders,8,2024-06-13,3.7,Y
+P0367,Shoes Model 367,Fashion,Fashion Sub-4,6499.10,4029.44,Global Mart,21,2024-06-22,4.4,Y
+P0368,Coffee Model 368,Grocery,Grocery Sub-1,6516.40,4105.33,Vertex Goods,34,2024-07-01,2.6,N
+P0369,Mixer Model 369,Home,Home Sub-2,6533.70,4181.57,Metro Wholesale,47,2024-07-10,3.3,Y
+P0370,Tennis Racket Model 370,Sports,Sports Sub-3,6551.00,4258.15,Nova Supply,60,2024-07-19,4.0,Y
+P0371,Headset Model 371,Electronics,Electronics Sub-4,6568.30,4335.08,Prime Traders,73,2024-07-28,4.7,Y
+P0372,Handbag Model 372,Fashion,Fashion Sub-1,6585.60,4412.35,Global Mart,0,2024-08-06,2.9,Y
+P0373,Snacks Model 373,Grocery,Grocery Sub-2,6602.90,4489.97,Vertex Goods,99,2024-08-15,3.6,Y
+P0374,Cookware Model 374,Home,Home Sub-3,6620.20,4567.94,Metro Wholesale,112,2024-08-24,4.3,Y
+P0375,Cricket Bat Model 375,Sports,Sports Sub-4,6637.50,4646.25,Nova Supply,125,2024-09-02,2.5,Y
+P0376,Laptop Model 376,Electronics,Electronics Sub-1,6654.80,4724.91,Prime Traders,138,2024-09-11,3.2,Y
+P0377,Shirt Model 377,Fashion,Fashion Sub-2,6672.10,4803.91,Global Mart,151,2024-09-20,3.9,Y
+P0378,Rice Model 378,Grocery,Grocery Sub-3,6689.40,4883.26,Vertex Goods,164,2024-09-29,4.6,Y
+P0379,Chair Model 379,Home,Home Sub-4,6706.70,4962.96,Metro Wholesale,177,2024-10-08,2.8,Y
+P0380,Football Model 380,Sports,Sports Sub-1,6724.00,3698.20,Nova Supply,190,2024-10-17,3.5,Y
+P0381,Monitor Model 381,Electronics,Electronics Sub-2,6741.30,3775.13,Prime Traders,203,2024-10-26,4.2,Y
+P0382,Jeans Model 382,Fashion,Fashion Sub-3,6758.60,3852.40,Global Mart,216,2024-11-04,4.9,Y
+P0383,Oil Model 383,Grocery,Grocery Sub-4,6775.90,3930.02,Vertex Goods,229,2024-11-13,3.1,Y
+P0384,Table Model 384,Home,Home Sub-1,6793.20,4007.99,Metro Wholesale,242,2024-11-22,3.8,Y
+P0385,Yoga Mat Model 385,Sports,Sports Sub-2,6810.50,4086.30,Nova Supply,5,2024-12-01,4.5,Y
+P0386,Keyboard Model 386,Electronics,Electronics Sub-3,6827.80,4164.96,Prime Traders,18,2024-12-10,2.7,Y
+P0387,Jacket Model 387,Fashion,Fashion Sub-4,6845.10,4243.96,Global Mart,31,2024-12-19,3.4,Y
+P0388,Tea Model 388,Grocery,Grocery Sub-1,NA,4323.31,Vertex Goods,44,2024-12-28,4.1,Y
+P0389,Lamp Model 389,Home,Home Sub-2,6879.70,4403.01,Metro Wholesale,57,2025-01-06,4.8,Y
+P0390,Dumbbell Model 390,Sports,Sports Sub-3,6897.00,4483.05,Nova Supply,70,2025-01-15,3.0,Y
+P0391,Mouse Model 391,Electronics,Electronics Sub-4,6914.30,4563.44,Prime Traders,83,2025-01-24,3.7,N
+P0392,Shoes Model 392,Fashion,Fashion Sub-1,6931.60,4644.17,Global Mart,96,2025-02-02,4.4,Y
+P0393,Coffee Model 393,Grocery,Grocery Sub-2,6948.90,4725.25,Vertex Goods,109,2025-02-11,2.6,Y
+P0394,Mixer Model 394,Home,Home Sub-3,6966.20,4806.68,Metro Wholesale,122,2025-02-20,3.3,Y
+P0395,Tennis Racket Model 395,Sports,Sports Sub-4,6983.50,4888.45,Nova Supply,135,2025-03-01,4.0,Y
+P0396,Headset Model 396,Electronics,Electronics Sub-1,7000.80,4970.57,Prime Traders,148,2025-03-10,4.7,Y
+P0397,Handbag Model 397,Fashion,Fashion Sub-2,7018.10,5053.03,Global Mart,161,2025-03-19,2.9,Y
+P0398,Snacks Model 398,Grocery,Grocery Sub-3,7035.40,5135.84,Vertex Goods,174,2025-03-28,3.6,Y
+P0399,Cookware Model 399,Home,Home Sub-4,7052.70,5219.00,Metro Wholesale,187,2025-04-06,4.3,Y
+P0400,Cricket Bat Model 400,Sports,Sports Sub-1,7070.00,3888.50,Nova Supply,200,2022-01-01,2.5,Y
+P0401,Laptop Model 401,Electronics,Electronics Sub-2,7087.30,3968.89,Prime Traders,213,2022-01-10,3.2,Y
+P0402,Shirt Model 402,Fashion,Fashion Sub-3,7104.60,4049.62,Global Mart,226,2022-01-19,3.9,Y
+P0403,Rice Model 403,Grocery,Grocery Sub-4,7121.90,4130.70,Vertex Goods,0,2022-01-28,4.6,Y
+P0404,Chair Model 404,Home,Home Sub-1,7139.20,4212.13,Metro Wholesale,2,2022-02-06,2.8,Y
+P0405,Football Model 405,Sports,Sports Sub-2,7156.50,4293.90,Nova Supply,15,2022-02-15,3.5,Y
+P0406,Monitor Model 406,Electronics,Electronics Sub-3,7173.80,4376.02,Prime Traders,28,2022-02-24,4.2,Y
+P0407,Jeans Model 407,Fashion,Fashion Sub-4,7191.10,4458.48,Global Mart,41,2022-03-05,4.9,Y
+P0408,Oil Model 408,Grocery,Grocery Sub-1,7208.40,4541.29,Vertex Goods,54,2022-03-14,3.1,Y
+P0409,Table Model 409,Home,Home Sub-2,7225.70,4624.45,Metro Wholesale,67,2022-03-23,3.8,Y
+P0410,Yoga Mat Model 410,Sports,Sports Sub-3,7243.00,4707.95,Nova Supply,80,2022-04-01,4.5,Y
+P0411,Keyboard Model 411,Electronics,Electronics Sub-4,7260.30,4791.80,Prime Traders,93,2022-04-10,2.7,Y
+P0412,Jacket Model 412,Fashion,Fashion Sub-1,7277.60,4875.99,Global Mart,106,2022-04-19,3.4,Y
+P0413,Tea Model 413,Grocery,Grocery Sub-2,7294.90,4960.53,Vertex Goods,119,2022-04-28,4.1,Y
+P0414,Lamp Model 414,Home,Home Sub-3,7312.20,5045.42,Metro Wholesale,132,2022-05-07,4.8,N
+P0415,Dumbbell Model 415,Sports,Sports Sub-4,7329.50,5130.65,Nova Supply,145,2022-05-16,3.0,Y
+P0416,Mouse Model 416,Electronics,Electronics Sub-1,7346.80,5216.23,Prime Traders,158,2022-05-25,3.7,Y
+P0417,Shoes Model 417,Fashion,Fashion Sub-2,7364.10,5302.15,Global Mart,171,2022-06-03,4.4,Y
+P0418,Coffee Model 418,Grocery,Grocery Sub-3,7381.40,5388.42,Vertex Goods,184,2022-06-12,2.6,Y
+P0419,Mixer Model 419,Home,Home Sub-4,7398.70,5475.04,Metro Wholesale,197,2022-06-21,3.3,Y
+P0420,Tennis Racket Model 420,Sports,Sports Sub-1,7416.00,4078.80,Nova Supply,210,2022-06-30,4.0,Y
+P0421,Headset Model 421,Electronics,Electronics Sub-2,7433.30,4162.65,Prime Traders,223,2022-07-09,4.7,Y
+P0422,Handbag Model 422,Fashion,Fashion Sub-3,7450.60,4246.84,Global Mart,236,2022-07-18,2.9,Y
+P0423,Snacks Model 423,Grocery,Grocery Sub-4,7467.90,4331.38,Vertex Goods,249,2022-07-27,3.6,Y
+P0424,Cookware Model 424,Home,Home Sub-1,7485.20,4416.27,Metro Wholesale,12,2022-08-05,4.3,Y
+P0425,Cricket Bat Model 425,Sports,Sports Sub-2,7502.50,4501.50,Nova Supply,25,2022-08-14,2.5,Y
+P0426,Laptop Model 426,Electronics,Electronics Sub-3,7519.80,4587.08,Prime Traders,38,2022-08-23,3.2,Y
+P0427,Shirt Model 427,Fashion,Fashion Sub-4,7537.10,4673.00,Global Mart,51,2022-09-01,3.9,Y
+P0428,Rice Model 428,Grocery,Grocery Sub-1,7554.40,4759.27,Vertex Goods,64,2022-09-10,4.6,Y
+P0429,Chair Model 429,Home,Home Sub-2,7571.70,4845.89,Metro Wholesale,77,2022-09-19,2.8,Y
+P0430,Football Model 430,Sports,Sports Sub-3,7589.00,4932.85,Nova Supply,90,2022-09-28,3.5,Y
+P0431,Monitor Model 431,Electronics,Electronics Sub-4,7606.30,5020.16,Prime Traders,103,2022-10-07,4.2,Y
+P0432,Jeans Model 432,Fashion,Fashion Sub-1,7623.60,5107.81,Global Mart,116,2022-10-16,4.9,Y
+P0433,Oil Model 433,Grocery,Grocery Sub-2,7640.90,5195.81,Vertex Goods,129,2022-10-25,3.1,Y
+P0434,Table Model 434,Home,Home Sub-3,7658.20,5284.16,Metro Wholesale,0,2022-11-03,3.8,Y
+P0435,Yoga Mat Model 435,Sports,Sports Sub-4,7675.50,5372.85,Nova Supply,155,2022-11-12,4.5,Y
+P0436,Keyboard Model 436,Electronics,Electronics Sub-1,7692.80,5461.89,Prime Traders,168,2022-11-21,2.7,Y
+P0437,Jacket Model 437,Fashion,Fashion Sub-2,7710.10,5551.27,Global Mart,181,2022-11-30,3.4,N
+P0438,Tea Model 438,Grocery,Grocery Sub-3,7727.40,5641.00,Vertex Goods,194,2022-12-09,4.1,Y
+P0439,Lamp Model 439,Home,Home Sub-4,7744.70,5731.08,Metro Wholesale,207,2022-12-18,4.8,Y
+P0440,Dumbbell Model 440,Sports,Sports Sub-1,7762.00,4269.10,Nova Supply,220,2022-12-27,3.0,Y
+P0441,Mouse Model 441,Electronics,Electronics Sub-2,7779.30,4356.41,Prime Traders,233,2023-01-05,3.7,Y
+P0442,Shoes Model 442,Fashion,Fashion Sub-3,7796.60,4444.06,Global Mart,246,2023-01-14,4.4,Y
+P0443,Coffee Model 443,Grocery,Grocery Sub-4,7813.90,4532.06,Vertex Goods,9,2023-01-23,2.6,Y
+P0444,Mixer Model 444,Home,Home Sub-1,7831.20,4620.41,Metro Wholesale,22,2023-02-01,3.3,Y
+P0445,Tennis Racket Model 445,Sports,Sports Sub-2,7848.50,,Nova Supply,35,2023-02-10,4.0,Y
+P0446,Headset Model 446,Electronics,Electronics Sub-3,7865.80,4798.14,Prime Traders,48,2023-02-19,4.7,Y
+P0447,Handbag Model 447,Fashion,Fashion Sub-4,7883.10,4887.52,Global Mart,61,2023-02-28,2.9,Y
+P0448,Snacks Model 448,Grocery,Grocery Sub-1,7900.40,4977.25,Vertex Goods,74,2023-03-09,3.6,Y
+P0449,Cookware Model 449,Home,Home Sub-2,7917.70,5067.33,Metro Wholesale,87,2023-03-18,4.3,Y
+P0450,Cricket Bat Model 450,Sports,Sports Sub-3,7935.00,5157.75,Nova Supply,100,2023-03-27,2.5,Y
+P0451,Laptop Model 451,Electronics,Electronics Sub-4,7952.30,5248.52,Prime Traders,113,2023-04-05,3.2,Y
+P0452,Shirt Model 452,Fashion,Fashion Sub-1,7969.60,5339.63,Global Mart,126,2023-04-14,3.9,Y
+P0453,Rice Model 453,Grocery,Grocery Sub-2,7986.90,5431.09,Vertex Goods,139,2023-04-23,4.6,Y
+P0454,Chair Model 454,Home,Home Sub-3,8004.20,5522.90,Metro Wholesale,152,2023-05-02,2.8,Y
+P0455,Football Model 455,Sports,Sports Sub-4,8021.50,5615.05,Nova Supply,165,2023-05-11,3.5,Y
+P0456,Monitor Model 456,Electronics,Electronics Sub-1,8038.80,5707.55,Prime Traders,178,2023-05-20,4.2,Y
+P0457,Jeans Model 457,Fashion,Fashion Sub-2,8056.10,5800.39,Global Mart,191,2023-05-29,4.9,Y
+P0458,Oil Model 458,Grocery,Grocery Sub-3,8073.40,5893.58,Vertex Goods,204,2023-06-07,3.1,Y
+P0459,Table Model 459,Home,Home Sub-4,8090.70,5987.12,Metro Wholesale,217,2023-06-16,3.8,Y
+P0460,Yoga Mat Model 460,Sports,Sports Sub-1,8108.00,4459.40,Nova Supply,230,2023-06-25,4.5,N
+P0461,Keyboard Model 461,Electronics,Electronics Sub-2,8125.30,4550.17,Prime Traders,243,2023-07-04,2.7,Y
+P0462,Jacket Model 462,Fashion,Fashion Sub-3,8142.60,4641.28,Global Mart,6,2023-07-13,3.4,Y
+P0463,Tea Model 463,Grocery,Grocery Sub-4,8159.90,4732.74,Vertex Goods,19,2023-07-22,4.1,Y
+P0464,Lamp Model 464,Home,Home Sub-1,8177.20,4824.55,Metro Wholesale,32,2023-07-31,4.8,Y
+P0465,Dumbbell Model 465,Sports,Sports Sub-2,8194.50,4916.70,Nova Supply,0,2023-08-09,3.0,Y
+P0466,Mouse Model 466,Electronics,Electronics Sub-3,8211.80,5009.20,Prime Traders,58,2023-08-18,3.7,Y
+P0467,Shoes Model 467,Fashion,Fashion Sub-4,8229.10,5102.04,Global Mart,71,2023-08-27,4.4,Y
+P0468,Coffee Model 468,Grocery,Grocery Sub-1,8246.40,5195.23,Vertex Goods,84,2023-09-05,2.6,Y
+P0469,Mixer Model 469,Home,Home Sub-2,8263.70,5288.77,Metro Wholesale,97,2023-09-14,3.3,Y
+P0470,Tennis Racket Model 470,Sports,Sports Sub-3,8281.00,5382.65,Nova Supply,110,2023-09-23,4.0,Y
+P0471,Headset Model 471,Electronics,Electronics Sub-4,8298.30,5476.88,Prime Traders,123,2023-10-02,4.7,Y
+P0472,Handbag Model 472,Fashion,Fashion Sub-1,8315.60,5571.45,Global Mart,136,2023-10-11,2.9,Y
+P0473,Snacks Model 473,Grocery,Grocery Sub-2,8332.90,5666.37,Vertex Goods,149,2023-10-20,3.6,Y
+P0474,Cookware Model 474,Home,Home Sub-3,8350.20,5761.64,Metro Wholesale,162,2023-10-29,4.3,Y
+P0475,Cricket Bat Model 475,Sports,Sports Sub-4,8367.50,5857.25,Nova Supply,175,2023-11-07,2.5,Y
+P0476,Laptop Model 476,Electronics,Electronics Sub-1,8384.80,5953.21,Prime Traders,188,2023-11-16,3.2,Y
+P0477,Shirt Model 477,Fashion,Fashion Sub-2,8402.10,6049.51,Global Mart,201,2023-11-25,3.9,Y
+P0478,Rice Model 478,Grocery,Grocery Sub-3,8419.40,6146.16,Vertex Goods,214,2023-12-04,4.6,Y
+P0479,Chair Model 479,Home,Home Sub-4,8436.70,6243.16,Metro Wholesale,227,2023-12-13,2.8,Y
+P0480,Football Model 480,Sports,Sports Sub-1,8454.00,4649.70,Nova Supply,240,2023-12-22,3.5,Y
+P0481,Monitor Model 481,Electronics,Electronics Sub-2,8471.30,4743.93,Prime Traders,3,2023-12-31,4.2,Y
+P0482,Jeans Model 482,Fashion,Fashion Sub-3,8488.60,4838.50,Global Mart,16,2024-01-09,4.9,Y
+P0483,Oil Model 483,Grocery,Grocery Sub-4,8505.90,4933.42,Vertex Goods,29,2024-01-18,3.1,N
+P0484,Table Model 484,Home,Home Sub-1,8523.20,5028.69,Metro Wholesale,42,2024-01-27,3.8,Y
+P0485,Yoga Mat Model 485,Sports,Sports Sub-2,NA,5124.30,Nova Supply,55,2024-02-05,4.5,Y
+P0486,Keyboard Model 486,Electronics,Electronics Sub-3,8557.80,5220.26,Prime Traders,68,2024-02-14,2.7,Y
+P0487,Jacket Model 487,Fashion,Fashion Sub-4,8575.10,5316.56,Global Mart,81,2024-02-23,3.4,Y
+P0488,Tea Model 488,Grocery,Grocery Sub-1,8592.40,5413.21,Vertex Goods,94,2024-03-03,4.1,Y
+P0489,Lamp Model 489,Home,Home Sub-2,8609.70,5510.21,Metro Wholesale,107,2024-03-12,4.8,Y
+P0490,Dumbbell Model 490,Sports,Sports Sub-3,8627.00,5607.55,Nova Supply,120,2024-03-21,3.0,Y
+P0491,Mouse Model 491,Electronics,Electronics Sub-4,8644.30,5705.24,Prime Traders,133,2024-03-30,3.7,Y
+P0492,Shoes Model 492,Fashion,Fashion Sub-1,8661.60,5803.27,Global Mart,146,2024-04-08,4.4,Y
+P0493,Coffee Model 493,Grocery,Grocery Sub-2,8678.90,5901.65,Vertex Goods,159,2024-04-17,2.6,Y
+P0494,Mixer Model 494,Home,Home Sub-3,8696.20,6000.38,Metro Wholesale,172,2024-04-26,3.3,Y
+P0495,Tennis Racket Model 495,Sports,Sports Sub-4,8713.50,6099.45,Nova Supply,185,2024-05-05,4.0,Y
+P0496,Headset Model 496,Electronics,Electronics Sub-1,8730.80,6198.87,Prime Traders,0,2024-05-14,4.7,Y
+P0497,Handbag Model 497,Fashion,Fashion Sub-2,8748.10,6298.63,Global Mart,211,2024-05-23,2.9,Y
+P0498,Snacks Model 498,Grocery,Grocery Sub-3,8765.40,6398.74,Vertex Goods,224,2024-06-01,3.6,Y
+P0499,Cookware Model 499,Home,Home Sub-4,8782.70,6499.20,Metro Wholesale,237,2024-06-10,4.3,Y
+P0500,Cricket Bat Model 500,Sports,Sports Sub-1,8800.00,4840.00,Nova Supply,0,2024-06-19,2.5,Y
