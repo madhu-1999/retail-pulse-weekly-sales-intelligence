@@ -1,4 +1,6 @@
 import json
+import os
+from pathlib import Path
 import sys
 
 from config import (
@@ -25,6 +27,8 @@ SELECT
     monthly_net_sales
 FROM retail_pulse.retail_gold.monthly_category_sales
 """
+
+CONSUMED_EVENTS_FILE = Path(__file__).resolve().parent / "consumed_events.jsonl"
 
 
 def build_event(row) -> dict:
@@ -77,6 +81,35 @@ def fetch_rows():
     return rows
 
 
+def load_seen_keys_from_file(file_path: Path) -> set:
+    """Reads consumed_events.jsonl to extract existing event_ids."""
+    seen_keys = set()
+    if not os.path.exists(file_path):
+        logger.info(
+            f"No existing '{file_path}' file found. Starting with empty seen_keys."
+        )
+        return seen_keys
+
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            for line_number, line in enumerate(f, start=1):
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    event = json.loads(line)
+                    event_id = event.get("event_id")
+                    if event_id:
+                        seen_keys.add(event_id)
+                except json.JSONDecodeError:
+                    logger.warning(f"Could not parse line {line_number} in {file_path}")
+        logger.info(f"Loaded {len(seen_keys)} unique event keys from '{file_path}'.")
+    except Exception as e:
+        logger.error(f"Error reading '{file_path}': {e}")
+
+    return seen_keys
+
+
 def main() -> None:
     if not all([KAFKA_BOOTSTRAP_SERVERS, KAFKA_TOPIC, KAFKA_CONSUMER_GROUP]):
         logger.error(
@@ -85,6 +118,9 @@ def main() -> None:
             "KAFKA_CONSUMER_GROUP in your .env file."
         )
         sys.exit(1)
+
+    # Load seen keys directly from consumed_events.jsonl
+    seen_keys = load_seen_keys_from_file(CONSUMED_EVENTS_FILE)
 
     logger.info(f"Starting Kafka producer -> topic '{KAFKA_TOPIC}'")
     producer = Producer({"bootstrap.servers": KAFKA_BOOTSTRAP_SERVERS})
@@ -96,8 +132,18 @@ def main() -> None:
         sys.exit(1)
 
     sent = 0
+    skipped_duplicates = 0
+
     for row in rows:
         event = build_event(row)
+
+        # Check if key has already been processed in this batch
+        if event["event_id"] in seen_keys:
+            logger.warning(f"Skipping duplicate event_id key: '{event['event_id']}'")
+            skipped_duplicates += 1
+            continue
+
+        seen_keys.add(event["event_id"])
         payload = json.dumps(event)
 
         try:
@@ -120,7 +166,9 @@ def main() -> None:
         producer.poll(0)  # trigger delivery callbacks without blocking
         sent += 1
 
-    logger.info(f"Flushing producer ({sent} events queued)...")
+    logger.info(
+        f"Flushing producer ({sent} unique events queued, {skipped_duplicates} duplicates skipped)..."
+    )
     producer.flush()
     logger.info(f"Producer finished. {sent} events sent to '{KAFKA_TOPIC}'.")
 
