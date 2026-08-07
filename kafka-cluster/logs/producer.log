@@ -1,0 +1,59 @@
+2026-08-06 19:15:32 | INFO     | kafka_producer | Starting Kafka producer -> topic 'retail-sales-summary'
+2026-08-06 19:15:32 | INFO     | kafka_producer | Connecting to Databricks SQL warehouse...
+2026-08-06 19:16:04 | ERROR    | kafka_producer | Failed to fetch data from Databricks
+Traceback (most recent call last):
+  File "/Users/madhulikasawant/revature/retail-pulse-weekly-sales-intelligence/kafka-cluster/producer.py", line 93, in main
+    rows = fetch_rows()
+  File "/Users/madhulikasawant/revature/retail-pulse-weekly-sales-intelligence/kafka-cluster/producer.py", line 73, in fetch_rows
+    cursor.execute(QUERY)
+  File "/Users/madhulikasawant/revature/retail-pulse-weekly-sales-intelligence/.venv/lib/python3.10/site-packages/databricks/sql/telemetry/latency_logger.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/madhulikasawant/revature/retail-pulse-weekly-sales-intelligence/.venv/lib/python3.10/site-packages/databricks/sql/client.py", line 1369, in execute
+    self.active_result_set = self.backend.execute_command(
+  File "/Users/madhulikasawant/revature/retail-pulse-weekly-sales-intelligence/.venv/lib/python3.10/site-packages/databricks/sql/backend/thrift_backend.py", line 1081, in execute_command
+    execute_response, has_more_rows = self._handle_execute_response(
+  File "/Users/madhulikasawant/revature/retail-pulse-weekly-sales-intelligence/.venv/lib/python3.10/site-packages/databricks/sql/backend/thrift_backend.py", line 1288, in _handle_execute_response
+    final_operation_state, final_status_resp = self._wait_until_command_done(
+  File "/Users/madhulikasawant/revature/retail-pulse-weekly-sales-intelligence/.venv/lib/python3.10/site-packages/databricks/sql/backend/thrift_backend.py", line 964, in _wait_until_command_done
+    self._check_command_not_in_error_or_closed_state(op_handle, poll_resp)
+  File "/Users/madhulikasawant/revature/retail-pulse-weekly-sales-intelligence/.venv/lib/python3.10/site-packages/databricks/sql/backend/thrift_backend.py", line 637, in _check_command_not_in_error_or_closed_state
+    raise ServerOperationError(
+databricks.sql.exc.ServerOperationError: [TABLE_OR_VIEW_NOT_FOUND] The table or view `retail_gold`.`monthly_category_sales` cannot be found. Verify the spelling and correctness of the schema and catalog.
+Search path: [`system`.`session`, `system`.`builtin`, `system`.`ai`, `workspace`.`default`].
+If you did not qualify the name with a schema, verify the current_schema() output, or qualify the name with the correct schema and catalog.
+To tolerate the error on drop use DROP VIEW IF EXISTS or DROP TABLE IF EXISTS. SQLSTATE: 42P01; line 9 pos 5
+2026-08-06 19:17:22 | INFO     | kafka_producer | Starting Kafka producer -> topic 'retail-sales-summary'
+2026-08-06 19:17:22 | INFO     | kafka_producer | Connecting to Databricks SQL warehouse...
+2026-08-06 19:17:32 | INFO     | kafka_producer | Fetched 30 rows from retail_gold.monthly_category_sales
+2026-08-06 19:17:32 | INFO     | kafka_producer | Flushing producer (30 events queued)...
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-03-Sports' to retail-sales-summary[2]0
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-04-Grocery' to retail-sales-summary[2]1
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-03-Fashion' to retail-sales-summary[2]2
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-01-Electronics' to retail-sales-summary[2]3
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-05-Electronics' to retail-sales-summary[2]4
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-04-Home' to retail-sales-summary[2]5
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-03-Electronics' to retail-sales-summary[2]6
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-06-Sports' to retail-sales-summary[2]7
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-06-Fashion' to retail-sales-summary[2]8
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-01-Home' to retail-sales-summary[2]9
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-06-Grocery' to retail-sales-summary[2]10
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-01-Grocery' to retail-sales-summary[2]11
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-06-Electronics' to retail-sales-summary[2]12
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-02-Electronics' to retail-sales-summary[0]0
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-05-Sports' to retail-sales-summary[0]1
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-02-Grocery' to retail-sales-summary[0]2
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-04-Fashion' to retail-sales-summary[0]3
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-06-Home' to retail-sales-summary[0]4
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-04-Sports' to retail-sales-summary[0]5
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-05-Home' to retail-sales-summary[0]6
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-03-Home' to retail-sales-summary[0]7
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-01-Sports' to retail-sales-summary[1]0
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-02-Home' to retail-sales-summary[1]1
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-01-Fashion' to retail-sales-summary[1]2
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-03-Grocery' to retail-sales-summary[1]3
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-02-Sports' to retail-sales-summary[1]4
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-02-Fashion' to retail-sales-summary[1]5
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-04-Electronics' to retail-sales-summary[1]6
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-05-Fashion' to retail-sales-summary[1]7
+2026-08-06 19:17:33 | INFO     | kafka_producer | Delivered key=b'SALES-2026-05-Grocery' to retail-sales-summary[1]8
+2026-08-06 19:17:33 | INFO     | kafka_producer | Producer finished. 30 events sent to 'retail-sales-summary'.

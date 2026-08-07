@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+.databricks
+databricks.yml
+
+# Kafka
+!kafka-cluster/logs/consumer.log
+!kafka-cluster/logs/producer.log 
+kafka-cluster/data
